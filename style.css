@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Suranna&display=swap');
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #726268;
+}
+a:hover{
+    color: #2a6b3c;
+}
+a:active{
+    color: #362a6b;
+}
+a:visited{
+    color: #c01414;
+}
+.container{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    font: bold 16px 'Roboto', sans-serif;
+    color: #0F141E;
+    background-color: #F1F1F1;
+    margin: 0;
+}
+.top-elements{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: stretch;
+    padding: 20px 0 20px 0;
+}
+
+.top-elements>div{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.avatar{
+    height: 100%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.block-1{
+    border: #e4e8ff 0px solid;
+    border-radius: 10px;
+    background-color: #e4e8ff;
+    padding: 10%; 
+    box-sizing: border-box;
+    flex-grow: 1
+    
+}
+.block-2{
+    border: #ede4ff 0px solid;
+    border-radius: 10px;
+    background-color: #ede4ff;
+    
+}
+
+.block-3{
+    border: #fee3ec 0px solid;
+    border-radius: 10px;
+    background-color: #fee3ec;
+   
+}
+.block-4{
+    border: rgb(78, 9, 52) 2px solid;
+    border-radius: 10px;
+    background-color: #5e5252;
+   
+}
+ul>li{
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul>li:hover{
+    background-color: #ccc;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border: 2px solid #ccc;
+}
+td{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border: 2px solid #ccc;
+}
+
+tr>td:hover{
+    background-color: #ccc;
+}
+tr>td:last-child{
+    color: #c01414;
+}
+
+tr>td:first-child{
+    color: #234e17;
+}
+
+tr>td:nth-child(2){
+    color: #9e327a;
+}
+.btn{
+    display: block;
+}
+
+.form-element{
+    width: 50%;
+}
+.form-element>label{
+    display: block;
+}
+.row-form{
+    display: flex;
+}
+@media(max-width: 650px){
+    .top-elements{
+        flex-direction: column;
+        padding: 0;
+    }
+    .top-elements>div{
+        width: 100%;
+    }
+    .form-element{
+        width: 100%;
+    }
+    .row-form{
+        flex-direction: column;
+    }
+}
